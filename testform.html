@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>taoform</title>
+</head>
+<body>
+<table border="1" style="width: 100%">
+    <tr>
+        <th>Sever</th>
+        <th>Tỷ Lệ Exp</th>
+        <th>Tỷ Lệ Drop</th>
+    </tr>
+    <tr>
+        <td>Phoenix</td>
+        <td>110%</td>
+        <td>5%</td>
+    </tr>
+    <tr>
+        <td>Dragon</td>
+        <td>111%</td>
+        <td>4%</td>
+    </tr>
+</table>
+<form action="kcg.html" method="get">
+    <fieldset>
+        <legend>Welcomeback</legend>
+        Login ID: <br>
+        <input type="text" name="id" >
+        <br>
+        Password: <br>
+        <input type="password" name="psw">
+        <br>
+        <input type="checkbox" name="sever1" id="sever1" value="Phoenix">
+        <label for="sever1">S1-Phoenix</label>
+        <label for="sever2"><input type="checkbox" name="sever2" id="sever2" value="Dragon">S2-Dragon</label>
+        <br>
+        <input type="button" value="Login">
+        <input type="reset" value="Reset">
+        <br>
+        <button type="button">
+            <a href="https://www.google.com/">DownLoad</a>
+        </button>
+        <br>
+        <p style="color: darkred">Report</p>
+        <textarea name="Report" id="report" cols="30" rows="10"></textarea>
+    </fieldset>
+    <label for="class">Choose Class</label>
+    <select name="class" id="class" >
+        <option value="tank">Warrior</option>
+        <option value="nuke">Wizzard</option>
+        <option value="support">Eft</option>
+        <option value="assassin">Ninja</option>
+    </select>
+</form>
+
+</body>
+</html>
